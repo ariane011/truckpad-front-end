@@ -33,6 +33,7 @@ Essa é a aplicação front-end que está no netlify:
 
 - Node.js e NPM instalado
 
+****
 
 Passo 1: Clone o projeto na sua máquina
 
