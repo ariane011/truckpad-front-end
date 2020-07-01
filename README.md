@@ -37,12 +37,12 @@ Essa é a aplicação front-end que está no netlify:
 Passo 1: Clone o projeto na sua máquina
 
 ```sh
-git clone https://github.com/ariane011/love-pets-front.git
+git clone https://github.com/ariane011/truckpad.git
 ```
 Passo 2: Acesse a pasta do projeto
 
 ```sh
-cd love-pets-front-end
+cd truckpad
 ```
 
 Passo 3: Instale todas as dependências do projeto
