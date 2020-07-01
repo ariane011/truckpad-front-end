@@ -1,68 +1,64 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### :truck: TruckPad
 
-## Available Scripts
+### O TruckPad é um projeto desenvolvido para um case de Front-End
 
-In the project directory, you can run:
+#### Nesta single-page, você pode cadastrar, editar e inativar um motorista. Ela permite também, listar todos os motoristas já cadastrados.
 
-### `yarn start`
+****
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Demo:
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+![demo](./src/assets/demo.gif)
 
-### `yarn test`
+Essa é a aplicação front-end que está no netlify:
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+:globe_with_meridians: [Link da aplicação](https://)
 
-### `yarn build`
+****
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### :computer: Tecnologias Utilizadas:
+ 
+- [x] React 
+- [x] React router
+- [x] Reactstrap
+- [x] Firebase
+- [x] Git
+- [x] GitHub
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+****
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## :derelict_house: Rodar o projeto localmente
 
-### `yarn eject`
+## ⚠️ Pré-requisitos: 
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- Node.js e NPM instalado
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Passo 1: Clone o projeto na sua máquina
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+```sh
+git clone https://github.com/ariane011/love-pets-front.git
+```
+Passo 2: Acesse a pasta do projeto
 
-## Learn More
+```sh
+cd love-pets-front-end
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Passo 3: Instale todas as dependências do projeto
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```sh
+npm install
+```
 
-### Code Splitting
+Passo 4: Rode o projeto na sua máquina
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+```sh
+npm start
+```
 
-### Analyzing the Bundle Size
+Passo 5: Abra o navegador e visualize o projeto
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+```sh
+http://localhost:3000
+```
