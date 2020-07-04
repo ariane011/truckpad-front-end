@@ -1,5 +1,5 @@
 import React from 'react';
-import FormCadastro from '../../components/Form'
+import FormCadastro from '../../components/Form/FormCadastro'
 
 const CadastroMotorista = () => {
     return(

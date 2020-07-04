@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 // import {firebaseStorage} from '../../../utils/firebaseUtils'
-
 import {
     Card,
     Button,
@@ -12,9 +11,14 @@ import {
     CardSubtitle,
     CardBody
 } from 'reactstrap';
+import ModalEditar from '../Modal';
 // import './style.css'
+
 const CardMotorista = (props) => {
-    
+
+    function handleClick() {
+        return <ModalEditar/>
+    }
     // const { evento } = props;
     // const [image, setImage] = useState("")
 
@@ -42,8 +46,12 @@ const CardMotorista = (props) => {
                         <CardTitle className="title">{motorista.nome}</CardTitle>
                         <CardSubtitle className="sub-titulo">{motorista.tipoCNH}</CardSubtitle>
                         {/* <Link to={`/evento/${evento.key}`}> */}
-                            <Button className="btn-editar">Editar</Button>
-                            <Button className="btn-inativar">Inativar</Button>
+                            <Button className="btn-editar" onClick={handleClick} type="button">
+                                Editar
+                            </Button>
+                            <Button className="btn-inativa
+                            r">Inativar
+                            </Button>
                         {/* </Link> */}
                     </CardBody>
                 </Card>

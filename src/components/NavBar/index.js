@@ -75,9 +75,9 @@ function NavBar() {
             
             </NavbarBrand>
             <NavItem>
-            <button
+            <Button
             aria-expanded={navbarCollapse}
-            className={classnames("navbar-toggler navbar-toggler", {
+            className={classnames("navbar-toggler navbar-toggler", "btn-cadastrar", {
               toggled: navbarCollapse
             })}
             onClick={toggleNavbarCollapse}
@@ -87,7 +87,7 @@ function NavBar() {
             <span className="navbar-toggler-bar bar1" />
             <span className="navbar-toggler-bar bar2" />
             <span className="navbar-toggler-bar bar3" />
-          </button>
+          </Button>
             {/* <Button 
               className="btn-cadastrar"
               to="/cadastrar"
