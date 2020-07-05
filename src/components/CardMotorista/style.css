@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+Chettan+2&display=swap');
+
+
+.card {
+    display: inline-block;
+}
+.card-deck {
+    width: 100%;
+    margin: 0 auto 40px 0;
+    display: inline-block;
+}
+
+.card-deck .card {
+    box-shadow: 0px 12px 19px -7px rgba(0, 0, 0, 0.3);
+}
+
+.card-img {
+   margin: auto;
+   width: 50%;
+   display: flex;
+   justify-content: center;
+}
+
+.card-title {
+    margin-top: 7%;
+    align-items: center;
+}
+
+.card-deck .card-text {
+    font-size: small;
+    font-family: 'Baloo Chettan 2', cursive;
+    font-size: 16px;
+    color: #232120;
+    padding-bottom: 15px;
+}
+
+.card-text, .card-title {
+    display: flex;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.btn-inativar {
+    color: #000000;
+    font-weight: 500;
+    border-radius: 5px;
+    border: 3px solid #000000;
+    border-radius: 50px;
+    width: 110px;
+    background-color: transparent;
+    margin-left: 30px;
+}
+
+.btn-inativar:hover {
+  border: 2px solid #000000;
+  background-color: #000000;
+  color: #FFF;
+  font-weight: 500;
+  box-shadow: 6px 12px 15px rgba(0,0,0,0.1);
+}
+
+.btn-editar {
+  background-color: #FFB906;
+  border: 3px solid #FFB906;
+  color: #000000;
+  font-weight: 500;
+  border-radius: 50px;
+  width: 110px;
+  margin-left: 20px;
+}
+
+.btn-editar:hover,
+.btn-editar.btn:active:hover,
+.btn-editar.btn:not(:disabled):not(.disabled):active  {
+  background-color: #FFB000;
+  border: 3px solid #FFB000;
+  font-weight: 500;
+  color: #000000;
+}
+
+
+.btn-inativar.btn:focus,
+.btn-inativar.btn:not(:disabled):not(.disabled):active  {
+  border: 2px solid #000000;
+  background-color: #000000;
+  font-weight: 500;
+}
+
+
+@media screen and (min-width: 768px) {
+    .card-deck {
+        width: calc(100% / 2);
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .card-deck {
+        width: calc(100% / 4);
+    }
+}
+

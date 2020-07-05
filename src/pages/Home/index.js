@@ -22,6 +22,12 @@ const Home = () => {
             {motoristaList && <SearchMotorista motoristaList={motoristaList}/>}
             <CardMotorista/>
             <CardMotorista/>
+            <CardMotorista/>
+            <CardMotorista/>
+            <CardMotorista/>
+            <CardMotorista/>
+            <CardMotorista/>
+            <CardMotorista/>
         </>
     )
 };

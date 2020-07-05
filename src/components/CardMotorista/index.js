@@ -1,63 +1,52 @@
-import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
-// import {firebaseStorage} from '../../../utils/firebaseUtils'
+import React from 'react';
 import {
     Card,
     Button,
     CardImg,
-    CardTitle,
     CardText,
     CardDeck,
-    CardSubtitle,
-    CardBody
+    CardBody,
+    CardTitle
 } from 'reactstrap';
-import ModalEditar from '../Modal';
-// import './style.css'
+import "./style.css";
+import { Link } from "react-router-dom";
+import imgAvatar from '../../assets/img/avatar05.svg'
 
-const CardMotorista = (props) => {
-
-    function handleClick() {
-        return <ModalEditar/>
-    }
-    // const { evento } = props;
-    // const [image, setImage] = useState("")
+ const CardMotorista = () => {
 
     const motorista = {
-            
-            nome: 'Mario', 
-            tipoCNH: 'Categoria B e C'
+       
+        nome: 'Alberto José',
+        telefone: '(11) 9999-9999',
+        dataNascimento: '01/01/1970',
+        cpf: '821.374.530-29',
+        cnh:  '940.777.543-27',
+        tipo: 'B e C'
     }
-    
-    
-    // if(evento.img) {
-    //     if(evento.img.includes("images/eventos/")) {
-    //         firebaseStorage.ref().child(evento.img).getDownloadURL().then((url) => {
-    //             setImage(url);
-    //         })
-    //         .catch((error) => (console.log(error)))
-    //     }
-    // }
 
     return (
-        <>
-            <CardDeck className="card-deck">
-                <Card> 
-                    <CardBody>
-                        <CardTitle className="title">{motorista.nome}</CardTitle>
-                        <CardSubtitle className="sub-titulo">{motorista.tipoCNH}</CardSubtitle>
-                        {/* <Link to={`/evento/${evento.key}`}> */}
-                            <Button className="btn-editar" onClick={handleClick} type="button">
-                                Editar
-                            </Button>
-                            <Button className="btn-inativa
-                            r">Inativar
-                            </Button>
-                        {/* </Link> */}
-                    </CardBody>
-                </Card>
-            </CardDeck>
-        </>
+        <CardDeck className="card-deck">
+            <Card className="card">
+                <CardBody>
+                    <CardImg className="card-img" src={imgAvatar} alt="Avatar" />
+                    <CardTitle className="card-title">{motorista.nome}</CardTitle>
+                    <hr/>
+                    <CardText className="card-text">
+                        Telefone: {motorista.telefone}
+                        <br/>
+                        Data de Nascimento: {motorista.dataNascimento}
+                        <br/>
+                        CPF: {motorista.cpf}
+                        <br/>
+                        CNH:  {motorista.cnh}
+                        <br/> 
+                    </CardText>
+                    <Button className="btn-editar" to="/editar" tag={Link}>Editar</Button>
+                    <Button className="btn-inativar">Inativar</Button>
+                </CardBody>
+            </Card>
+        </CardDeck>
     );
-};
+}
 
 export default CardMotorista;
