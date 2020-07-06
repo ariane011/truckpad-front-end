@@ -3,8 +3,8 @@ import Header from '../../components/Header';
 import imgHeader from '../../assets/img/background.svg';
 import SearchMotorista from '../../components/Search/SearchMotorista';
 import CardMotorista from '../../components/CardMotorista'
-import './style.css'
 import '../../assets/css/main.css'
+import './style.css'
 
 const Home = () => {
     const white = "melhores" 
@@ -20,13 +20,6 @@ const Home = () => {
         <>
             <Header props={dataHeader}/>
             {motoristaList && <SearchMotorista motoristaList={motoristaList}/>}
-            <CardMotorista/>
-            <CardMotorista/>
-            <CardMotorista/>
-            <CardMotorista/>
-            <CardMotorista/>
-            <CardMotorista/>
-            <CardMotorista/>
             <CardMotorista/>
         </>
     )

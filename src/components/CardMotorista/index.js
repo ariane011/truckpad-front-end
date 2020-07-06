@@ -8,6 +8,7 @@ import {
     CardBody,
     CardTitle
 } from 'reactstrap';
+import '../../assets/css/main.css'
 import "./style.css";
 import { Link } from "react-router-dom";
 import imgAvatar from '../../assets/img/avatar05.svg'
@@ -21,7 +22,7 @@ import imgAvatar from '../../assets/img/avatar05.svg'
         dataNascimento: '01/01/1970',
         cpf: '821.374.530-29',
         cnh:  '940.777.543-27',
-        tipo: 'B e C'
+        categoria: 'B e C'
     }
 
     return (

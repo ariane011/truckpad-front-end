@@ -1,4 +1,5 @@
 import React, {useState} from 'react';
+import '../../assets/css/main.css'
 import '../Search/style.css';
 import {
     Input,

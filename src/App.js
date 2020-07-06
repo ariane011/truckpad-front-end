@@ -12,7 +12,7 @@ function App() {
     <main id="main">
       <Routes />
     </main>
-    {/* // <DemoFooter /> */}
+    {/* // <Footer /> */}
     </>
   );
 }

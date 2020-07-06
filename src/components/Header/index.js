@@ -1,5 +1,6 @@
 import React from "react";
 import { Container } from "reactstrap";
+import '../../assets/css/main.css'
 import './style.css'
 import '../../assets/css/main.css'
 

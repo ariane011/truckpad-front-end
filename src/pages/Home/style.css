@@ -1,26 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Kumar+One+Outline&family=Roboto+Condensed:wght@700&display=swap');
 
-.page-header {
-    background-color: #b2afab;
-    background-position: 50%;
-    background-size: cover;
-    min-height: 100vh;
-    max-height: 999px;
-    overflow: hidden;
-    position: relative;
-    width: 100%;
-    z-index: 1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
 .title {
     display: flex;
     justify-content: start;
-    margin-left: -70px; 
-    max-width: 40%;
+    margin-left: -70px;
+    margin-bottom: 12%;
+    width: 40%;
     font-size: 78px;
     text-align: left;
     font-family: 'Roboto Condensed', sans-serif;

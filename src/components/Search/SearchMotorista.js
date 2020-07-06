@@ -3,6 +3,7 @@ import { Container, Form, Row, Col } from "reactstrap";
 // import { Loading } from '../Loading';
 import CardEvento from '../CardMotorista';
 import Search from './Search';
+import '../../assets/css/main.css'
 import './SearchMotorista/style.css';
 // import imgNotFoundEvent from '../../assets/img/not-find-event.png'
 

@@ -1,12 +1,11 @@
 import React, {useState} from 'react';
 import {Form, FormGroup, Label, Input, Container, CustomInput, Button } from 'reactstrap';
-import { Link } from "react-router-dom";
 import { useHistory } from 'react-router-dom';
 import '../../assets/css/main.css'
 import './style.css'
 import api from '../../services/api'
    
-export default function FormEditar() {
+export default function FormInput() {
       const [nome, setNome] = useState('');
       const [telefone, setTelefone] = useState('');
       const [dtNascimento, setDtNascimento] = useState('');
@@ -41,7 +40,6 @@ export default function FormEditar() {
 
     return (
         <Container id="form-input">
-          <h2>Edite seus dados</h2>
           <div id="box-input" >
             <Form onSubmit={handleFormInput}>
                 <FormGroup>
@@ -81,10 +79,9 @@ export default function FormEditar() {
                     <CustomInput type="checkbox" id="exampleCustomCheckbox6" label="AAC" inline value={categoria} onChange={e => setCategoria(e.target.value)}
                     />
                 </FormGroup>
-                <Button type="submit" className="btn-form-voltar" to="/" tag={Link}>Voltar</Button>
-                <Button type="submit" className="btn-form-salvar">Salvar</Button>
                 </Form>
           </div>
-        </Container>   
+        </Container>
     );
-};
+ };
+    
