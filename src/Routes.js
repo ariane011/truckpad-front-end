@@ -11,7 +11,7 @@ const Routes = () => (
             <Switch>
                 <Route exact path='/' component={routerProps => <Home {...routerProps} />} />
                 <Route path='/cadastrar' component={Cadastrar} />
-                <Route path='/editar' component={Editar} />
+                <Route path='/editar/:id' component={Editar} />
                 {/* <Route exact path='/cadastrar-motorista' component={routerProps => <CadastroMotorista {...routerProps} />} /> */}
             </Switch>
 

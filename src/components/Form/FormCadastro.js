@@ -29,7 +29,6 @@ export default function FormCadastrar() {
           };
 
           const response = await api.post('motoristas', data);
-          console.log(data)
   
           try {
             alert(`Seu ID de acesso: ${response.data.id}`);

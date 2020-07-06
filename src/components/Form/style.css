@@ -28,6 +28,7 @@ h2 {
     border: 3px solid #FFB906;
     color: #000000;
     font-weight: 500;
+    margin: 2%;
     border-radius: 50px;
     margin-left: 1%;
     width: 120px;
@@ -46,8 +47,10 @@ h2 {
     background-color: #FFB906;
     border: 3px solid #FFB906;
     color: #000000;
+    margin: 2%;
     font-weight: 500;
     border-radius: 50px;
+    margin-top: ;
     margin-left: 1%;
     width: 120px;
 }

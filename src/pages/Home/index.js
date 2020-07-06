@@ -7,11 +7,13 @@ import '../../assets/css/main.css'
 import './style.css'
 
 const Home = () => {
+
     const white = "melhores" 
     const dataHeader = {
         title: `Encontre aqui os ${white} motoristas`,
         urlImg: imgHeader,
     }
+
     const [motoristaList, setMotoristaList] = useState([]);
     useEffect(() => {
     })
