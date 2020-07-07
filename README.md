@@ -8,11 +8,12 @@
 
 ### Demo:
 
-![demo](./src/assets/demo.gif)
+![demo](./src/assets/gifs/demo.gif)
 
 Essa é a aplicação front-end que está no netlify:
 
-:globe_with_meridians: [Link da aplicação](https://)
+:globe_with_meridians: [Link do trello](https://trello.com/invite/b/HzSI5fHT/1e7fa5f84817058e7efe75218569a38c/truckpad)
+:globe_with_meridians: [Link do Figma](https://www.figma.com/file/T8In04Q69Aqp7bpZktriCW/TruckPad?node-id=0%3A1)
 
 ****
 
@@ -21,7 +22,10 @@ Essa é a aplicação front-end que está no netlify:
 - [x] React 
 - [x] React router
 - [x] Reactstrap
-- [x] Firebase
+- [x] Formik
+- [x] Axios
+- [x] SQLITE
+- [x] NodeJS
 - [x] Git
 - [x] GitHub
 
