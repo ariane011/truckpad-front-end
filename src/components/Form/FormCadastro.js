@@ -36,6 +36,7 @@ export default function FormCadastrar() {
           } catch (error) {
               alert(`Erro ao se cadastrar, tente novamente`)
           }
+          console.log(data)
       }
 
     return (

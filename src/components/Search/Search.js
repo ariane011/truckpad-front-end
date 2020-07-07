@@ -1,6 +1,6 @@
-import React, {useState} from 'react';
-import '../../assets/css/main.css'
-import '../Search/style.css';
+import React, {useState } from 'react';
+import '../Search/Search.css';
+
 import {
     Input,
     InputGroupText,
@@ -23,7 +23,7 @@ const Search = (props) => {
             <InputGroup className="form-group-no-border">
                 <InputGroupText>
                     <i className="nc-icon nc-zoom-split" />
-                    <Input className="form-control--placeholder" placeholder="Procurar motorista..." type="text" maxLength={maxLength} value={value} onChange={updateValue} />
+                    <Input className="form-control--placeholder" placeholder="Procurar motoristas..." type="text" maxLength={maxLength} value={value} onChange={updateValue} />
                 </InputGroupText>
             </InputGroup>
         </>
