@@ -11,7 +11,7 @@
 ![demo](./src/assets/gifs/demo.gif)
 
 
-:globe_with_meridians:  Links úteis: [Trello](https://trello.com/b/HzSI5fHT/truckpad), [Figma](https://trello.com/b/HzSI5fHT/truckpad), [Back-End](https://github.com/ariane011/truckpad-back-end)
+:globe_with_meridians:  Links úteis: [Trello](https://trello.com/b/HzSI5fHT/truckpad), [Figma](https://trello.com/b/HzSI5fHT/truckpad) e [Back-End da Aplicação](https://github.com/ariane011/truckpad-back-end)
 
 ****
 
