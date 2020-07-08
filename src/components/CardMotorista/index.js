@@ -46,7 +46,7 @@ import api from '../../services/api'
                         <CardText className="card-text">
                             Telefone: {motorista.telefone}
                             <br/>
-                            Data de Nascimento: {motorista.dataNascimento}
+                            Data de Nascimento: {motorista.dtNascimento}
                             <br/>
                             CPF: {motorista.cpf}
                             <br/>

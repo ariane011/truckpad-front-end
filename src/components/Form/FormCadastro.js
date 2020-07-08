@@ -31,7 +31,7 @@ export default function FormCadastrar() {
           const response = await api.post('motoristas', data);
   
           try {
-            alert(`Seu ID de acesso: ${response.data.id}`);
+            alert(`Cadastro efetuado com sucesso!`);
               history.push('/');
           } catch (error) {
               alert(`Erro ao se cadastrar, tente novamente`)
