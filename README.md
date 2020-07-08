@@ -8,11 +8,10 @@
 
 ### Demo:
 
-![demo](./src/assets/demo.gif)
+![demo](./src/assets/gifs/demo.gif)
 
-Essa é a aplicação front-end que está no netlify:
 
-:globe_with_meridians: [Link da aplicação](https://)
+#### Links úteis: :globe_with_meridians: [Trello](https://trello.com/b/HzSI5fHT/truckpad) :globe_with_meridians: [Figma](https://www.figma.com/file/T8In04Q69Aqp7bpZktriCW/TruckPad?node-id=0%3A1) :globe_with_meridians: [Back-End (GitHub)](https://github.com/ariane011/truckpad-back-end) :globe_with_meridians: [API (Heroku)](https://truckpad.herokuapp.com/motoristas)
 
 ****
 
@@ -21,9 +20,13 @@ Essa é a aplicação front-end que está no netlify:
 - [x] React 
 - [x] React router
 - [x] Reactstrap
-- [x] Firebase
+- [x] Formik
+- [x] Axios
+- [x] SQLITE
+- [x] NodeJS
 - [x] Git
 - [x] GitHub
+- [x] Heroku
 
 ****
 
