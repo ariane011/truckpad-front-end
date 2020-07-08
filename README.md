@@ -11,7 +11,7 @@
 ![demo](./src/assets/gifs/demo.gif)
 
 
-:globe_with_meridians:  Links úteis: [Trello](https://trello.com/b/HzSI5fHT/truckpad), [Figma](https://trello.com/b/HzSI5fHT/truckpad), [Back-End (GitHub)](https://github.com/ariane011/truckpad-back-end) e  [API (Heroku)] (https://truckpad.herokuapp.com/motoristas)
+:globe_with_meridians:  Links úteis: [Trello](https://trello.com/b/HzSI5fHT/truckpad), [Figma](https://trello.com/b/HzSI5fHT/truckpad), [Back-End (GitHub)](https://github.com/ariane011/truckpad-back-end) [API (Heroku)](https://truckpad.herokuapp.com/motoristas)
 
 ****
 
