@@ -18,7 +18,7 @@ const Home = () => {
         <>
             <Header props={dataHeader}/>
             <SearchMotorista />
-            <CardMotorista status={true}/>
+            <CardMotorista />
         </>
     )
 };

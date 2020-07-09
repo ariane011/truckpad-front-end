@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 import imgAvatar from '../../assets/img/avatar05.svg'
 import api from '../../services/api'
 
- const CardMotorista = (props) => {
+ const CardMotorista = () => {
 
     const [motoristas, setMotoristas] = useState([]);
     const id =localStorage.getItem('id');
@@ -21,15 +21,15 @@ import api from '../../services/api'
         }).then(response => {
             const motoristas = response.data;
             let listaMotoristas = [];
-            for (let i = 0; i < motoristas.length; i++){
-                if (motoristas[i].status === 1 && props.status === true){
-                    listaMotoristas.push(motoristas[i]);
-                }
-                else if (motoristas[i].status === 0 && props.status === false) {
-                    listaMotoristas.push(motoristas[i]);
-                }
-            }
-            setMotoristas(listaMotoristas)
+            // for (let i = 0; i < motoristas.length; i++){
+            //     if (motoristas[i].status === 1 && motoristas.status === true){
+            //         listaMotoristas.push(motoristas[i]);
+            //     }
+            //     else if (motoristas[i].status === 0 && motoristas.status === false) {
+            //         listaMotoristas.push(motoristas[i]);
+            //     }
+            // }
+            setMotoristas(motoristas)
         })
     }, [id])
 
@@ -40,7 +40,20 @@ import api from '../../services/api'
                     Authorization: id,
                 }
             });
-            setMotoristas(motoristas.filter(motorista => motorista.id !== id));
+            // setMotoristas(motoristas.filter(motorista => motorista.id !== id));
+        } catch (error) {
+            alert("Não foi possível inativar o motorista, tente novamente!")
+        }
+    }
+
+    async function handleEnable(id) {
+        try {
+            await api.put(`motoristas/${id}`, {
+                headers: {
+                    Authorization: id,
+                }
+            });
+            // setMotoristas(motoristas.filter(motorista => motorista.id !== id));
         } catch (error) {
             alert("Não foi possível inativar o motorista, tente novamente!")
         }
@@ -68,9 +81,9 @@ import api from '../../services/api'
                         <Link to={`/editar/${motorista.id}`}>
                         <Button  className="btn-editar">Editar</Button>
                         </Link>
-                        <Button type="button" onClick={() => handleDisable(motorista.id)} className="btn-inativar">
-                            Inativar
-                        </Button>
+                            {motorista.status
+                            ? <Button type="button" onClick={() => handleDisable(motorista.id)} className="btn-inativar">Inativar</Button>
+                            : <Button type="button" onClick={() => handleEnable(motorista.id)} className="btn-inativar">Ativar</Button>} 
                     </CardBody>
                 </Card>
             </CardDeck>

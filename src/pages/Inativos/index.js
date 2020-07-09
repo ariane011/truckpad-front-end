@@ -1,6 +1,7 @@
 import React from 'react';
 import '../../assets/css/main.css'
 import './style.css'
+import {Button} from 'reactstrap';
 import CardMotorista from '../../components/CardMotorista'
 import imgHeader from '../../assets/img/dorpdown.svg'
 
