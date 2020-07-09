@@ -23,14 +23,14 @@ h2 {
     margin-bottom: 2%;
 }
 
-.btn-form-salvar {
+.btn-form-salvar, .btn-form-cadastrar {
     background-color: #FFB906;
     border: 3px solid #FFB906;
     color: #000000;
     font-weight: 500;
-    margin: 2%;
+    margin-top: 7%;
+    margin-left: 3%;
     border-radius: 50px;
-    margin-left: 1%;
     width: 120px;
   }
   
@@ -42,19 +42,7 @@ h2 {
     font-weight: 500;
     color: #000000;
 }
-
-.btn-form-cadastrar {
-    background-color: #FFB906;
-    border: 3px solid #FFB906;
-    color: #000000;
-    margin: 2%;
-    font-weight: 500;
-    border-radius: 50px;
-    margin-top: ;
-    margin-left: 1%;
-    width: 120px;
-}
-  
+ 
   .btn-form-cadastrar:hover,
   .btn-form-cadastrar.btn:active:hover,
   .btn-form-cadastrar.btn:not(:disabled):not(.disabled):active  {
@@ -74,9 +62,9 @@ h2 {
     border: 3px solid #000000;
     border-radius: 50px;
     width: 120px;
-    margin: 2%;
+    margin-top: 7%;
     background-color: transparent;
-    margin-left: 48%;
+    margin-left: 41%;
 }
 
 .categoria {
