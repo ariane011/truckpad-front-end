@@ -2,8 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Kumar+One+Outline&family=Roboto+Condensed:wght@700&display=swap');
 
 .title {
-    display: flex;
-    justify-content: start;
     margin-left: -70px;
     margin-bottom: 12%;
     width: 40%;

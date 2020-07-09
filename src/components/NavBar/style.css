@@ -1,18 +1,18 @@
 
 .navbar {
-    background-color: #FFB000; 
+    padding: 1%;
+    background-color: #FFB000;
 } 
 
-/* .nav-brand {
-    padding: 20px;
-} */
+.toggler {
+    outline: hidden;
+}
 
 .btn-cadastrar  {
     background-color: #150035;
     color: #fff;
     font-weight: 500;
-    margin-left: 70% ;
-    width: 120px;
+    width: 250px;
     height: 40px;
     border-radius: 20px;
 }
@@ -32,3 +32,24 @@
   width: 250px;
   margin-left: 20%; 
 }
+
+.nav-right {
+    margin-left: 46%;
+}
+
+.btn-inativos,
+.btn-inativos:hover,
+.btn-inativos.btn:active:hover,
+.btn-inativos.btn:not(:disabled):not(.disabled):active  {
+    color: #000000;
+    font-weight: 500;
+    border-radius: 5px;
+    border: 3px solid #000000;
+    border-radius: 50px;
+    width: 250px;
+    margin: 2%;
+    background-color: transparent;
+    margin-right: 8%;
+}
+
+

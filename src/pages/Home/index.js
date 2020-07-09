@@ -3,6 +3,7 @@ import Header from '../../components/Header';
 import imgHeader from '../../assets/img/background.svg';
 import SearchMotorista from '../../components/Search/SearchMotorista';
 import CardMotorista from '../../components/CardMotorista'
+import '../../assets/css/responsive.css'
 import '../../assets/css/main.css'
 import './style.css'
 
@@ -17,7 +18,7 @@ const Home = () => {
         <>
             <Header props={dataHeader}/>
             <SearchMotorista />
-            <CardMotorista/>
+            <CardMotorista status={true}/>
         </>
     )
 };

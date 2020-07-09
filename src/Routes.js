@@ -1,18 +1,16 @@
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
+import Home from './pages/Home'
 import Cadastrar from './pages/Cadastrar'
 import Editar from './pages/Editar'
-
-const Home = React.lazy(() => import('./pages/Home'));
-// const CadastroMotorista = React.lazy(() => import('./pages/CadastroMotorista'));
-
+import Inativos from './pages/Inativos'
 const Routes = () => (
 
             <Switch>
-                <Route exact path='/' component={routerProps => <Home {...routerProps} />} />
+                <Route exact path='/' component={Home} />
                 <Route path='/cadastrar' component={Cadastrar} />
                 <Route path='/editar/:id' component={Editar} />
-                {/* <Route exact path='/cadastrar-motorista' component={routerProps => <CadastroMotorista {...routerProps} />} /> */}
+                <Route path='/motoristas-inativos' component={Inativos} />
             </Switch>
 
 )

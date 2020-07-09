@@ -1,0 +1,14 @@
+@media (max-width: 600px) {
+    .content-center .title-brand .title {
+        margin-left: 13%;
+        margin-bottom: 152%; 
+        font-size: 40px;
+        width: 320px; 
+    }
+
+    .card-body .btn-editar {
+        margin-left: 22%;
+    }
+}
+
+

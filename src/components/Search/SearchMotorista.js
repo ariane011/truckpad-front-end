@@ -1,10 +1,9 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import { Container, Form, Row, Col } from "reactstrap";
-
 import Search from './Search';
-import './SearchEvento/style.css';
+import './SearchMotorista/style.css';
 
-const SearchEvento = (props) => {
+const SearchMotorista = (props) => {
 
     return (
         <>
@@ -23,4 +22,4 @@ const SearchEvento = (props) => {
     )
 }
 
-export default SearchEvento;
+export default SearchMotorista;

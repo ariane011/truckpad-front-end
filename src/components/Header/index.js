@@ -1,8 +1,8 @@
 import React from "react";
 import { Container } from "reactstrap";
 import '../../assets/css/main.css'
+import '../../assets/css/responsive.css'
 import './style.css'
-import '../../assets/css/main.css'
 
 function Header({props}) {
  const { urlImg, title} = props;

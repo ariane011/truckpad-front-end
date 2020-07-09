@@ -1,9 +1,8 @@
 .page-header {
-    background-color: #b2afab;
     background-position: 50%;
     background-size: cover;
-    min-height: 100vh;
-    max-height: 999px;
+    min-height: 90vh;
+    max-height: 100px;
     overflow: hidden;
     position: relative;
     width: 100%;
