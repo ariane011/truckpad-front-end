@@ -41,12 +41,12 @@
 Passo 1: Clone o projeto na sua máquina
 
 ```sh
-git clone https://github.com/ariane011/truckpad.git
+git clone https://github.com/ariane011/truckpad-front-end.git
 ```
 Passo 2: Acesse a pasta do projeto
 
 ```sh
-cd truckpad
+cd truckpad-front-end
 ```
 
 Passo 3: Instale todas as dependências do projeto
